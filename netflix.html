@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="nav" id="nav">
+      <img src="icons8-netflix-logo-144.png" alt="" class="nav-logo"/>
+      <img src="icons8-netflix-logo-144.png" alt="" class="nav-avatar"/>
+      
+   </div>
+
+ <!--header-->
+    <div class="banner">
+        <div class="banner-contents">
+      
+        <h1 class="banner-name">Netflix Originals</h1>
+        <div class="banner-buttons">
+        <button class="banner-button">Play</button>
+        <button class="banner-button">Download</button>
+      </div>
+      <div class="banner-description">
+        Netflix is a home of amazing original programming that you can't find anywhere else.
+        Movies, TV shows,specials and more, it's all tailored specifically to you.
+        <button class="banner-button">+ </button>
+        <button class="banner-button">Share</button>
+      </div>
+     </div>
+     <div class="banner--fadeBottom"></div>
+    </div>   
+
+
+ <!--NETFLIX-->
+    <div class="row">
+        <h2>Only on NETFLIX</h2>
+        <div class="row-images">
+           <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABd-iJOnLkBO7tPRFS6VNfDmHioAqvaD630vP1dKmMVTLPoz5MXFFzAxb0sqmjdUj_Q246W9vT5GIdKZym5fWiVZcFR3ldA1WfvsZiRyYSgENJ3uggxsaDGLEnJWbvhrwtXvC.jpg?r=326" alt="" class=" row-image row-imageLarge"/>
+           <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVaJXN5-66O2NWAgZ4gJs0indZULopXaHrzrG4BS4kQ9v637lNB37T3XqmrhskN24lhjGqWA-2EnwBSDCqAgIItT0-HSpK5WjQdxJp0PGFXgChazBZm2Ob_bAWOGoiMhpKQBKoaxQr7Ry8KHSSzmPJ672AcCbD8pr0ynwZTHGPV7B1ravocPLbkifVQfOVsdD5q8h4DB__F4MRfaLTjvgX6hakFvq5lwEFesmk8d1fl8LKgPMQQwkUyGsxAWrYcqrG0yMfabYRrbH5WigGPlyAMaRPOUJPsib12tegpGkvbN_y_7p8C4xRf0.jpg?r=088" alt="" class=" row-image row-imageLarge"/>
+           <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbOyA-tv_BECGqUZX1kAlfrL0zBEl-OlokIR9doQ2wGoJAmcsWFGb7Nl6aJZMnTCWJlcnFLZuEi7iYOVWBurHA1G8FReGOe8obN_XzpoOqOHU1qEE6VJJCAd-HVuq4ylujf9.jpg?r=4f5" alt="" class=" row-image row-imageLarge"/>
+           <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABW15GBTzru86iaN4ZrQHs_FSUT4gz3EmTQ7dF4yNpwUA4RgyExN9X6WdhKORNrwHprHOhOI8uNJ9euf_aFbsHBzkRNsTYFvpAFuIwcJ-jj4PCK_fTgyYAfnZG2c9OBrmeJhI.jpg?r=7f6" alt="" class=" row-image row-imageLarge"/>
+           <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWzPR8nR7Bcjz3Vgkn8zYyeOTjb5AtST4PEoxaZkbs_JlYcXyzTaNRwGa6t4UclSGnAtLiWeq7tMKIv5OqyM7dvKZLoah52bMgYuoCdxKVDnGOX7TCxP1TeQvYhwVgP79Lhm.jpg?r=501" alt="" class=" row-image row-imageLarge"/>
+           <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQVIMlSRTkNbnGs0ENdeUE2cwyClfI6O4-eQWbCZifirLzJF3lr8HtVj8-39ZiL2fhOAfICNp6-opWNhcExEDUvFkd-ojISL7cbazy2vMmftsKjsapuIO4SwdonsgC6wq5b7.jpg?r=a3d" alt="" class=" row-image row-imageLarge"/>
+           <img src="https://occ-0-2483-3646.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABaTDKxVed8KueNyk6iAML-PX1golzfjswLJ3xKQO40dUZgMcM4s134YE8zOyiwLsYQVaSHzX5YB5hIcmM7eXZrVpD_5kWsIZUKxAzalOonbhxfQJ7AjOfBy-FBOJRxKAB5bDo86-sjCtz0sZEu7KTVNajsFN2to9oWSyiuu71NVLXaWW2-5tg12CX_qFuQwSLYjq4kzECxiML2yzJMU5XK28M1OklfJ03Ehop0coq5ZTLovEjw41QNEzLZAdcHpPQ0bxUMEFNMquy3aP0UDKK-ENuDDlrZansQufX9L3FdGsDRWPQhE.jpg?r=810" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie8.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie1.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie2.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie3.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie4.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie5.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie6.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie7.jpg" alt="" class=" row-image row-imageLarge"/>
+           <img src="large-movie8.jpg" alt="" class=" row-image row-imageLarge"/>
+        </div>
+    </div>
+
+ <!--Trending Now-->
+ <div class="row">
+    <h2>Indian movies</h2>
+    <div class="row-images">
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABa0GxQNa0cSl6xlI_FtIBT8XE_-n5AlrTWUgOKZrR_CYlDtKfHmefJIan5k73664W-9Gn1IikfInwE53bju3kEEuet88o07MMcUSvFzvOG45fvXyYp6OzQe-ULTyOnPStjQ2.jpg?r=cd3" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQYJPioTsbw0f6J66fniti7f7Bo8Ira8w_vUu6ntfaxQq6BXItY3e3jrewZW6mENYYF2jFLf7bjpxeYV4yMbv0-DGvvkidl2i5DklNZg5fqLX1X2IOMNrPlFYpYP7lqL1JwQ.jpg?r=23e" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSGYBZiLlxy3gqL1h74wPi3gU-4Qt2UuxnfE1uPkfApnkQWphbvTpt69t0vq-7AksaLNwvkyxoOp1ACmBH8aBTiamkQ17MJUh8M-f-XiqB_tgMisuESVGgBtJBCGiK5ITXSN.jpg?r=f4d" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU98J3XQCnEUiI-Z2JopDU-7v_8uOS4pk0pjd3QPEqhCQyU9eJGEaX0DyfoZBhHNPrewthK_1UFz0MnGBYbowE_4Th3HPLQ7BlpqRXe6YPEVCilXYPmFENZOAzkQB-EWYFGm.jpg?r=abe" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeySD3kUd73UNPeQ1rVdTbbW0C-bNUsbbSGvwlQLfrSKCO_lAVfWLSR3Gz_JF89K1pbSR-gbNf3IRX0-h56G37Zt7j-kstf59rolFNmoge_jtQZaIls9PBDdYmZfXxg__lOi.jpg?r=af3" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQe9jDXUMj6YTYfBxD4FqwWiBK7Iyc5o36i2bm4524zCu1M_42Wu24-p_u2hVu6bH7yD7lm9HFn9clj5d2n93GSDJkn8iOaHworHyl60sUzJglRp74_srl9FuNT4LhVse6OOdRiJK0e-75jTBsNk_yKrbM_610JRVrr1ajmP5NicQaJ_niwhx4opqSReHM2FhpdAzJKNeO3OkcfTsfFjpXDHU-t10XQOhtP9w-OUekcv2HYyrsJrrxEaZbICHWaxaRlxU0UiiXrKMeb4sbIq_l2zXLnnNw3RyDpoSH28crU3HlcXpPVHV7eo.jpg?r=290" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABWDwGxMGA-rA35kxH4T1XUScWEGzDaAo1kI-JqSE7g_mZ_Sg5CTg8eJ729Vs0igNN1IxDS7GdoO62RQzvyqoVh2qB8lt59gn670r5yu4gQDIWFA8Bqom7WIRJBG4yImriIDi.jpg?r=3e9" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQbjdnqbprRrsnDilDu8-NJUWtbsE8xR7TZVMLQsY8Ef83Ej8Bl9zwcmdrirOQeMlpv3-lE62vU_Gegk6sM_9tZV_UJqmiK17tuqH1Ol0GDeQYvr6n__J0giZ2PquQ6GjmGx.jpg?r=e2c" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXQ2Lg90WoiNwOyIOFSUx0ou5SHCNdAVxbjrQpj_X6HvbdQuvIamgCP-mOvqudhA2VX84kS3X6eQ_TMY4wK1wkZiQlRXzIzYFr-TBFcvV2OpzrwveNg5LEXwKRx2JBXzy24l.jpg?r=246" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABa0GxQNa0cSl6xlI_FtIBT8XE_-n5AlrTWUgOKZrR_CYlDtKfHmefJIan5k73664W-9Gn1IikfInwE53bju3kEEuet88o07MMcUSvFzvOG45fvXyYp6OzQe-ULTyOnPStjQ2.jpg?r=cd3" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQYJPioTsbw0f6J66fniti7f7Bo8Ira8w_vUu6ntfaxQq6BXItY3e3jrewZW6mENYYF2jFLf7bjpxeYV4yMbv0-DGvvkidl2i5DklNZg5fqLX1X2IOMNrPlFYpYP7lqL1JwQ.jpg?r=23e" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSGYBZiLlxy3gqL1h74wPi3gU-4Qt2UuxnfE1uPkfApnkQWphbvTpt69t0vq-7AksaLNwvkyxoOp1ACmBH8aBTiamkQ17MJUh8M-f-XiqB_tgMisuESVGgBtJBCGiK5ITXSN.jpg?r=f4d" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU98J3XQCnEUiI-Z2JopDU-7v_8uOS4pk0pjd3QPEqhCQyU9eJGEaX0DyfoZBhHNPrewthK_1UFz0MnGBYbowE_4Th3HPLQ7BlpqRXe6YPEVCilXYPmFENZOAzkQB-EWYFGm.jpg?r=abe" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeySD3kUd73UNPeQ1rVdTbbW0C-bNUsbbSGvwlQLfrSKCO_lAVfWLSR3Gz_JF89K1pbSR-gbNf3IRX0-h56G37Zt7j-kstf59rolFNmoge_jtQZaIls9PBDdYmZfXxg__lOi.jpg?r=af3" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQe9jDXUMj6YTYfBxD4FqwWiBK7Iyc5o36i2bm4524zCu1M_42Wu24-p_u2hVu6bH7yD7lm9HFn9clj5d2n93GSDJkn8iOaHworHyl60sUzJglRp74_srl9FuNT4LhVse6OOdRiJK0e-75jTBsNk_yKrbM_610JRVrr1ajmP5NicQaJ_niwhx4opqSReHM2FhpdAzJKNeO3OkcfTsfFjpXDHU-t10XQOhtP9w-OUekcv2HYyrsJrrxEaZbICHWaxaRlxU0UiiXrKMeb4sbIq_l2zXLnnNw3RyDpoSH28crU3HlcXpPVHV7eo.jpg?r=290" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABWDwGxMGA-rA35kxH4T1XUScWEGzDaAo1kI-JqSE7g_mZ_Sg5CTg8eJ729Vs0igNN1IxDS7GdoO62RQzvyqoVh2qB8lt59gn670r5yu4gQDIWFA8Bqom7WIRJBG4yImriIDi.jpg?r=3e9" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQbjdnqbprRrsnDilDu8-NJUWtbsE8xR7TZVMLQsY8Ef83Ej8Bl9zwcmdrirOQeMlpv3-lE62vU_Gegk6sM_9tZV_UJqmiK17tuqH1Ol0GDeQYvr6n__J0giZ2PquQ6GjmGx.jpg?r=e2c" alt="" class=" row-image"/>
+      <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXQ2Lg90WoiNwOyIOFSUx0ou5SHCNdAVxbjrQpj_X6HvbdQuvIamgCP-mOvqudhA2VX84kS3X6eQ_TMY4wK1wkZiQlRXzIzYFr-TBFcvV2OpzrwveNg5LEXwKRx2JBXzy24l.jpg?r=246" alt="" class=" row-image"/>
+     </div>
+    </div>
+ 
+ <!--Top Rated-->
+    <div class="row">
+        <h2>Top Rated</h2>
+        <div class="row-images">
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUHcKLsIF5kJTG_M0bnEhAkv3G2AfhP4uvjZ1kD1x4hz8rEL9TFj1OVKOQDVCs1hvl5Sj4cmsuJCeumJkfJkLYbNnEZhXWkAYmEEfp21CTCC97k7mLY47GN0wbvciqroTy6S.jpg?r=c68" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfXZ1RjpwsvrwiB42sUFc0MbUsSZ45haoPM5coiR3_hqHVVRJQFSyGmhUjeIHCpctbN0sd1c3TsG1CD-zp-HZHIrBxp2m1NU2Z0Rr_GYp1FvosEyi2xJx-w79vxraWCWNyPO.jpg?r=4fc" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABedAYUvdBTL2Ml2V3PZBpFGMeuoq8sc0bRkVY-o_690qKb1TYgwdAFNcJqRX_71rE0jRQ8Uvo4Y_Zc-blsj6j0oxvxBZHfVNmpK1HOC8BXoyvg0EFPZHeivKlXg9VMzukRgP.jpg?r=082" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVCv4yWZncknTfl2xBuxumpRupouujgaPP6WyW4SKlKW4ca5zcmfhKPeuawwDGILSJ2qg0wpSbTi55egpBHiVpiLFnhxZfcKX7LSA1gC7OM9qpj06RqN3lq8VAnazeKuNq2v.jpg?r=326" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQVHO7eprjCHioYgdX7E4pnzxm7ea7XJ6Ydbzv1XuJ2Z02UOqFsKuj0RNwC1Qh2FNsoUEkb-S5g3Oei6PyM2dT0dZ_k0t2BnqbjgltqhJlxG5SFHVmjSiwQSyvp5rZGpulLs.jpg?r=d40" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABb9N-Q1vFj3X4mVXZ5UgMCM3LaW5_RFK-tOmLc8D0fPnwwilSGZK1mSvnByWCMMzRRcY1Y-PVWGA5UWQrGSwFgjIC5F7_7kV7LuVe30bCiMfuuun4XqvQXs7RpLN-fJ3DUWt.jpg?r=501" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABe1LGGBq6JyQXRs8X5P1guYL12WuNTKxURcwrytMU5cUDkw72hXocR3SkVI6HUPIIsFMRPp7mt5tcPyDgCF4UGi_I8D6wKIpiCucA3qX3cnZ09T-2JZoWl2utg8CegEKSS2V.jpg?r=fb2" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZECEO-CE2GURPb43YDqtpr8NDjnfj8MrSQaF4CSgx5k733ajeG8bkXedF18wJsFXTkRGVBFm4XsY6zCkiJ-TylKUmlUXp1oytNpEQkm6qDCxhNlkvJ2YKjKOs9UnFZl67PB.jpg?r=8a8" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYApe5XQADt3DpAzgnVQItUsfimSEs_3iyL1PP7DNvRsi8IYJlC4QJVD1jF1lHuwxF07dleBmccds4SNhO2zL5BgFTE5td9cJzuvWIVEfuowze0uONeFXys7w8zC8qPAVvE_.jpg?r=2c4" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUHcKLsIF5kJTG_M0bnEhAkv3G2AfhP4uvjZ1kD1x4hz8rEL9TFj1OVKOQDVCs1hvl5Sj4cmsuJCeumJkfJkLYbNnEZhXWkAYmEEfp21CTCC97k7mLY47GN0wbvciqroTy6S.jpg?r=c68" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfXZ1RjpwsvrwiB42sUFc0MbUsSZ45haoPM5coiR3_hqHVVRJQFSyGmhUjeIHCpctbN0sd1c3TsG1CD-zp-HZHIrBxp2m1NU2Z0Rr_GYp1FvosEyi2xJx-w79vxraWCWNyPO.jpg?r=4fc" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABedAYUvdBTL2Ml2V3PZBpFGMeuoq8sc0bRkVY-o_690qKb1TYgwdAFNcJqRX_71rE0jRQ8Uvo4Y_Zc-blsj6j0oxvxBZHfVNmpK1HOC8BXoyvg0EFPZHeivKlXg9VMzukRgP.jpg?r=082" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVCv4yWZncknTfl2xBuxumpRupouujgaPP6WyW4SKlKW4ca5zcmfhKPeuawwDGILSJ2qg0wpSbTi55egpBHiVpiLFnhxZfcKX7LSA1gC7OM9qpj06RqN3lq8VAnazeKuNq2v.jpg?r=326" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQVHO7eprjCHioYgdX7E4pnzxm7ea7XJ6Ydbzv1XuJ2Z02UOqFsKuj0RNwC1Qh2FNsoUEkb-S5g3Oei6PyM2dT0dZ_k0t2BnqbjgltqhJlxG5SFHVmjSiwQSyvp5rZGpulLs.jpg?r=d40" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABb9N-Q1vFj3X4mVXZ5UgMCM3LaW5_RFK-tOmLc8D0fPnwwilSGZK1mSvnByWCMMzRRcY1Y-PVWGA5UWQrGSwFgjIC5F7_7kV7LuVe30bCiMfuuun4XqvQXs7RpLN-fJ3DUWt.jpg?r=501" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABe1LGGBq6JyQXRs8X5P1guYL12WuNTKxURcwrytMU5cUDkw72hXocR3SkVI6HUPIIsFMRPp7mt5tcPyDgCF4UGi_I8D6wKIpiCucA3qX3cnZ09T-2JZoWl2utg8CegEKSS2V.jpg?r=fb2" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZECEO-CE2GURPb43YDqtpr8NDjnfj8MrSQaF4CSgx5k733ajeG8bkXedF18wJsFXTkRGVBFm4XsY6zCkiJ-TylKUmlUXp1oytNpEQkm6qDCxhNlkvJ2YKjKOs9UnFZl67PB.jpg?r=8a8" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYApe5XQADt3DpAzgnVQItUsfimSEs_3iyL1PP7DNvRsi8IYJlC4QJVD1jF1lHuwxF07dleBmccds4SNhO2zL5BgFTE5td9cJzuvWIVEfuowze0uONeFXys7w8zC8qPAVvE_.jpg?r=2c4" alt="" class="row-image"/>
+       </div>
+    </div>
+
+ <!--Action Movies-->
+    <div class="row">
+        <h2>Action & Adventure Movies</h2>
+        <div class="row-images">
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSWevXq-2HZjLz10nifg7t5eH4RqaVlnnDaCELyXFmw0oLvntZBXngdglBl5Iz7iuz43_W6lI0_96zmgIHIUMLMK8oUq5zfO9vyUFmFiXMVjKeSV17SbCayGl0M06QAsU0Wx.jpg?r=a98" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfDJcQJaWwtgaSKttVJFv9tVSPoMWpS2Sy4hsHfPWIo1jsmUyJ1W-0d1NJnjmUsgz_fRPLp7do0f5n2zRLhnoBaeO5fW2ueG2csB6w-3n69-odO10c1sbhhoHm7ohgsGQRUs.jpg?r=173" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQ3Rga765OYJlOzxO4lhrDm6GmMXMxN4bPI5fpIpvN0bGTeNAm-YmYn37u43tygIEnmdo7AdF9RhCKSw9j_m4FBbmOpv90vJr9Rvc6QJzFZmnBlQjDPGHmeO7LteOF_f7T_0.jpg?r=bb7" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQsDYE1WZiLhpxLz47-_OwrhjV5xXc58AftXL5AC-ydBjMuUI46hJSpRQTvRni4mlGovJh75GffCght9Y8fT7d5TUXGl0Rl8OI-KBxaUNsvrY-3ogCQME-9hwB0MQJzHE7Re.jpg?r=75e" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeFiBB9gm_94U4gXIOigmQPF9eADjO6nP9pq-brHUAcVZFw7ESZemmGjbACUXRWeEMbIX8HjtmgXzSucthEiF2UDQ4H3QlHexHWEdniXIjyr0BFssdLW38ywD0iUlwuz_Lw4.jpg?r=3a6" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbyS0qp2ACSM-t11DxOh359MquLwBcmu3tdTcTNwAL8ay73BGAEnQM_6iYEY2-I4RH9dAEWwPaNAHcLTN12Ghz15gkrNcVGm_2473iqptNIRNlcZeYwM4ctkSj9rKmjnXqkt.jpg?r=41c" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRsS-sOzlnu2RJFFReoQRGplV_GpsIH4dowIMDhRmGrm-ovcQ6dIXTD_h7ymYyQ3oKqR_rZSrtU9cCmeuEqaPmPYXpYJ-XxWKiXuRg8U_tCBqzE0FuWMr2znqmYI1bDLoygC.jpg?r=643" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR_eXw74uJPCTwXzLE8RXeXS21qjrMABC3fNtrGIl3V_W_Zb2n2d2kuu5o6jbppJquTBNQE0yNY3u1r874ya0fetm5fZwbGcYHCf_kaWtj9G4DVyJK2FeT2w2rPZ2QTuqGHv.jpg?r=5ef" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSWevXq-2HZjLz10nifg7t5eH4RqaVlnnDaCELyXFmw0oLvntZBXngdglBl5Iz7iuz43_W6lI0_96zmgIHIUMLMK8oUq5zfO9vyUFmFiXMVjKeSV17SbCayGl0M06QAsU0Wx.jpg?r=a98" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfDJcQJaWwtgaSKttVJFv9tVSPoMWpS2Sy4hsHfPWIo1jsmUyJ1W-0d1NJnjmUsgz_fRPLp7do0f5n2zRLhnoBaeO5fW2ueG2csB6w-3n69-odO10c1sbhhoHm7ohgsGQRUs.jpg?r=173" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQ3Rga765OYJlOzxO4lhrDm6GmMXMxN4bPI5fpIpvN0bGTeNAm-YmYn37u43tygIEnmdo7AdF9RhCKSw9j_m4FBbmOpv90vJr9Rvc6QJzFZmnBlQjDPGHmeO7LteOF_f7T_0.jpg?r=bb7" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQsDYE1WZiLhpxLz47-_OwrhjV5xXc58AftXL5AC-ydBjMuUI46hJSpRQTvRni4mlGovJh75GffCght9Y8fT7d5TUXGl0Rl8OI-KBxaUNsvrY-3ogCQME-9hwB0MQJzHE7Re.jpg?r=75e" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeFiBB9gm_94U4gXIOigmQPF9eADjO6nP9pq-brHUAcVZFw7ESZemmGjbACUXRWeEMbIX8HjtmgXzSucthEiF2UDQ4H3QlHexHWEdniXIjyr0BFssdLW38ywD0iUlwuz_Lw4.jpg?r=3a6" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbyS0qp2ACSM-t11DxOh359MquLwBcmu3tdTcTNwAL8ay73BGAEnQM_6iYEY2-I4RH9dAEWwPaNAHcLTN12Ghz15gkrNcVGm_2473iqptNIRNlcZeYwM4ctkSj9rKmjnXqkt.jpg?r=41c" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRsS-sOzlnu2RJFFReoQRGplV_GpsIH4dowIMDhRmGrm-ovcQ6dIXTD_h7ymYyQ3oKqR_rZSrtU9cCmeuEqaPmPYXpYJ-XxWKiXuRg8U_tCBqzE0FuWMr2znqmYI1bDLoygC.jpg?r=643" alt="" class="row-image"/>
+        <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR_eXw74uJPCTwXzLE8RXeXS21qjrMABC3fNtrGIl3V_W_Zb2n2d2kuu5o6jbppJquTBNQE0yNY3u1r874ya0fetm5fZwbGcYHCf_kaWtj9G4DVyJK2FeT2w2rPZ2QTuqGHv.jpg?r=5ef" alt="" class="row-image"/>
+       </div>
+    </div>
+
+ <!--Comedy Movies-->
+    <div class="row">
+    <h2>Comedy Movies</h2>
+    <div class="row-images">
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQbjdnqbprRrsnDilDu8-NJUWtbsE8xR7TZVMLQsY8Ef83Ej8Bl9zwcmdrirOQeMlpv3-lE62vU_Gegk6sM_9tZV_UJqmiK17tuqH1Ol0GDeQYvr6n__J0giZ2PquQ6GjmGx.jpg?r=e2c" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTgLesaPujrIlI_VMXQtLWDzjo7MJTG2nGodvo6fhaxwDJrX7ceZ09f2XzqFVanrMZfu1NQGMEp2v5FhySLA58LWsFIeYy8h7QCIZMhBXfooEYH7LvSrWOELNcHx5M-88F3m.jpg?r=185" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdxIe_klC7DVBULCQqzwBhJgX46jPDUYgh6zcMlCUH5WlpQW8K-3KtLmWzs1N-WERanYfZayRWqRLsKsmjrlFZlE6otrSiNQh-q-wyD1AajgaUX4zN-5llmNysLYLjk4k9Ck.jpg?r=600" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd-foTzsYW0IdEfm8DCO4IN9zbzgoxjzO1cQfTk1ab5eyIqmiWibHesAINfeWCzV3iYAO93JN4iSDoY7jcQDnTj-LzQhVBJ_9pcHkXWfOhPwq3B7yJxqYwTb-zisf6X_LQZN.jpg?r=788" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfGZvcyTi1j1IX2cdPYWJE2IZvUtl0LD2EWEHqfWUBA4Da1WiSQ6uQ-cn-R8dg3x4pvh5MDG0rhAhqUWb9D6MENdH2omhxwkpvaSwhIg9fQSIzgSgC3bCL4DpWjBwUmJsNim.jpg?r=e6d" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABWFn4YgWLeHe4ZSafmvi_u9i_MaYEE2_ZF4HUb6efH0KofmzPkmWl69UqV6GrJXS6RtrfBpI9liC47B62t-VARG_uKzWgUGYcNcry0u4UIMZle8_QoPmM3H8G5VG58B9rvZO.jpg?r=170" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbLFCQ-kPZI-OInkvRBF4MSNg_R_m5ySCkBYjKiHPuHM5xABp6ETWdVdSxq2hLUnOvv6-Id0IcuKarAgT4WtXnzLNQUqtZBGc99k0XuN3tLt1Y6ReUkjpw9XfhtViNhqAUE-.jpg?r=d98" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABV-nkLRo5890_sJYeGikE6mHInD8P-67YAQF_k7i0gdY89XxYdmbtoAtqJJa17Hq4aBMFdgjf0YDV2YjlcYInLMHrSIIVmbopGvLXgfJH5qohX4kOPaDgwSdgJPeLEm4ycW-.jpg?r=774" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQbjdnqbprRrsnDilDu8-NJUWtbsE8xR7TZVMLQsY8Ef83Ej8Bl9zwcmdrirOQeMlpv3-lE62vU_Gegk6sM_9tZV_UJqmiK17tuqH1Ol0GDeQYvr6n__J0giZ2PquQ6GjmGx.jpg?r=e2c" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTgLesaPujrIlI_VMXQtLWDzjo7MJTG2nGodvo6fhaxwDJrX7ceZ09f2XzqFVanrMZfu1NQGMEp2v5FhySLA58LWsFIeYy8h7QCIZMhBXfooEYH7LvSrWOELNcHx5M-88F3m.jpg?r=185" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdxIe_klC7DVBULCQqzwBhJgX46jPDUYgh6zcMlCUH5WlpQW8K-3KtLmWzs1N-WERanYfZayRWqRLsKsmjrlFZlE6otrSiNQh-q-wyD1AajgaUX4zN-5llmNysLYLjk4k9Ck.jpg?r=600" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABd-foTzsYW0IdEfm8DCO4IN9zbzgoxjzO1cQfTk1ab5eyIqmiWibHesAINfeWCzV3iYAO93JN4iSDoY7jcQDnTj-LzQhVBJ_9pcHkXWfOhPwq3B7yJxqYwTb-zisf6X_LQZN.jpg?r=788" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfGZvcyTi1j1IX2cdPYWJE2IZvUtl0LD2EWEHqfWUBA4Da1WiSQ6uQ-cn-R8dg3x4pvh5MDG0rhAhqUWb9D6MENdH2omhxwkpvaSwhIg9fQSIzgSgC3bCL4DpWjBwUmJsNim.jpg?r=e6d" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABWFn4YgWLeHe4ZSafmvi_u9i_MaYEE2_ZF4HUb6efH0KofmzPkmWl69UqV6GrJXS6RtrfBpI9liC47B62t-VARG_uKzWgUGYcNcry0u4UIMZle8_QoPmM3H8G5VG58B9rvZO.jpg?r=170" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABbLFCQ-kPZI-OInkvRBF4MSNg_R_m5ySCkBYjKiHPuHM5xABp6ETWdVdSxq2hLUnOvv6-Id0IcuKarAgT4WtXnzLNQUqtZBGc99k0XuN3tLt1Y6ReUkjpw9XfhtViNhqAUE-.jpg?r=d98" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABV-nkLRo5890_sJYeGikE6mHInD8P-67YAQF_k7i0gdY89XxYdmbtoAtqJJa17Hq4aBMFdgjf0YDV2YjlcYInLMHrSIIVmbopGvLXgfJH5qohX4kOPaDgwSdgJPeLEm4ycW-.jpg?r=774" alt="" class="row-image"/>
+   </div>
+    </div>
+
+ <!--Horror Movies-->
+    <div class="row">
+    <h2>Horror Movies</h2>
+    <div class="row-images">
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY48rceUb0YHlWZfbNiBEYzj2_eQpFVtRcw9GjwKjwb_kIjWDOP4Iohk3DGBd3AXWoJsvoUcgn3vr7Pkh7FrRvQQyru6uFX5SEn0Fn36tI2vfvoBrCKgtgfhCZKDlgSQFnkQ.jpg?r=306" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZqi0rD35M7VvL-VsVoEj9ABp26THDRnpCXPxa_Np7ibjOao4JPtr2uzMMd3maeIVzm2bZhA3Ih8SfUOpXfNKJFWN7r1oCNgcYYv5t_09QpsenPGb1b6YWK0J8QOIzu0nPhX.jpg?r=941" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUKv2_22H8KWJi6LDTIq4DOagTNmMQR6pBgfbgmSmUaxL03LKIuXz5qOJcPC0QIFP0hVPIQsMtPzxhnd49M2R5DsXy_nN2kdc4gspHIrErelj9kQk64PLQfms-RJ9Zz-CJ5m.jpg?r=182" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZ5RlbzPdzSEJ5gKfGfk5jM3xucz48xHv9hWbl8OFjQeg-niiH4ULu9_F2iVJZyUhON2JR4D3gadecAttr44n8LI-TbfO7h6RfiC4uBPpxhiZFJACrLvvU43VXZjrqoD2CP7.jpg?r=8c2" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdaxstYvAnJqa4GNnaYtqgOWtFO5S4MaJP9pc2GBDRpPHRW-dbnzKvOJkRzBnDtOX805Tpe23m8Rmtop6Qogin8sGou0Hzz1MSh6wdnB-178DbOXLidfPsvX1Om26zTWGS8r.jpg?r=000" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZbJD2MHmCWXPIQm3a20pK0LksB8_UyzNXPhIEeViGjE1k-qjvPaZ85a4P-O83ITkGDJw7ten4Ib4UPNjhvn5JVzfMLGrV5ZCX8gXqxHo3vAs8Gy3EEghkjrrl0eeg6vVRwc.jpg?r=e2a" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaeP5tj6p5LikVlYbCHCPECAlkSZIhTecGcVW6O47XdUpUhmdxKKboGRmO2C6IyW88Srr9i6wdSnssVzShSVpcmAP_24qLD8yroowBznpU-v_2ARF5CSimhGw3stc5J8jxzi.jpg?r=32c" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRxwNW4WWs0sk7YrooRcoXtQQPccDY2pQaN7HJt3VxCpqYdvr6b-QjXGQUT0MaRyVDrgcQ0kCb1ceT0SFCIBthn4PeHR_8CLQ0LM1pzUsi6IFA2Xi1GIoenxp9NazwDr45NZ.jpg?r=eab" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY48rceUb0YHlWZfbNiBEYzj2_eQpFVtRcw9GjwKjwb_kIjWDOP4Iohk3DGBd3AXWoJsvoUcgn3vr7Pkh7FrRvQQyru6uFX5SEn0Fn36tI2vfvoBrCKgtgfhCZKDlgSQFnkQ.jpg?r=306" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZqi0rD35M7VvL-VsVoEj9ABp26THDRnpCXPxa_Np7ibjOao4JPtr2uzMMd3maeIVzm2bZhA3Ih8SfUOpXfNKJFWN7r1oCNgcYYv5t_09QpsenPGb1b6YWK0J8QOIzu0nPhX.jpg?r=941" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUKv2_22H8KWJi6LDTIq4DOagTNmMQR6pBgfbgmSmUaxL03LKIuXz5qOJcPC0QIFP0hVPIQsMtPzxhnd49M2R5DsXy_nN2kdc4gspHIrErelj9kQk64PLQfms-RJ9Zz-CJ5m.jpg?r=182" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZ5RlbzPdzSEJ5gKfGfk5jM3xucz48xHv9hWbl8OFjQeg-niiH4ULu9_F2iVJZyUhON2JR4D3gadecAttr44n8LI-TbfO7h6RfiC4uBPpxhiZFJACrLvvU43VXZjrqoD2CP7.jpg?r=8c2" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdaxstYvAnJqa4GNnaYtqgOWtFO5S4MaJP9pc2GBDRpPHRW-dbnzKvOJkRzBnDtOX805Tpe23m8Rmtop6Qogin8sGou0Hzz1MSh6wdnB-178DbOXLidfPsvX1Om26zTWGS8r.jpg?r=000" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZbJD2MHmCWXPIQm3a20pK0LksB8_UyzNXPhIEeViGjE1k-qjvPaZ85a4P-O83ITkGDJw7ten4Ib4UPNjhvn5JVzfMLGrV5ZCX8gXqxHo3vAs8Gy3EEghkjrrl0eeg6vVRwc.jpg?r=e2a" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABaeP5tj6p5LikVlYbCHCPECAlkSZIhTecGcVW6O47XdUpUhmdxKKboGRmO2C6IyW88Srr9i6wdSnssVzShSVpcmAP_24qLD8yroowBznpU-v_2ARF5CSimhGw3stc5J8jxzi.jpg?r=32c" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRxwNW4WWs0sk7YrooRcoXtQQPccDY2pQaN7HJt3VxCpqYdvr6b-QjXGQUT0MaRyVDrgcQ0kCb1ceT0SFCIBthn4PeHR_8CLQ0LM1pzUsi6IFA2Xi1GIoenxp9NazwDr45NZ.jpg?r=eab" alt="" class="row-image"/>
+   </div>
+    </div>
+
+ <!--K-Dramas-->
+    <div class="row">
+    <h2>K-Dramas</h2>
+    <div class="row-images">
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfEszUbCWSmMmcEabhv8Nm6qYXtPUdBmeLMMP2gNl6Lg__reza5ZGE7VzDR1PO-N4D8ZQovqizjI8qqTUETi56mrY5Jh5Qs85kGFpAVb0yQob-wn64JUoVHCSIcgefMHvuY0XDtA92jWmTbTSeIaSpOAqjKRzVWKlL1geM3z6IJzvqOUmgyxrRvWdk8cn761MfwzlluOkMAPAYHjuBEPT1uuSfmLBSqCBXAmW7IR3dHkEimjl68a9VHvfZZ77OtgoK7WYA5eqLjaWe3XyBloZfRAKWSuJxwFuUDu_iKoEFU0HhxO75nmELndKmFhKY4GVa1YL11e9ugClBwSIsJIK9K0Y61j0M3Adj7tCUrz4_oNrEaga1Yjy4htqOgaNpAQkSUuxVhw-CMnAOiV6zSwyQfmHe3fQquFZKKcx2zqn_kFmWoJCvT0EKSZFsza7Q7aZzdTe-ij.jpg?r=44c" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdsCrtvo28GH9x_6JmNSfS2yo9YwrXZbYmm8Y3Mdlm7UZn7hFXGLwMC0mM2AZkFGiyWKtYFZ98DTOmU5zXzQ-Fn6uwiYCyuKepUl4vC2AjY-n3FRvw2Xbq-liYtSqIA8Rx9S.jpg?r=b69" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTsMh85v5kdGqNA5WURnB9kLvdqt5JytR6_FPcPSTAq-GOTSRnGPArIvqCBRZxQUPKAEXIgL9huDbOe8qqxpB7voXviuTIyRQhcLe50Di0WT1wIelru0iARsjnmMjKU7KCiHKZUlUo0RRD3wBrOnRajmPfbAMxBg2gyPU1B6UMu5450_MKY8kmUvPey6xtP21c7L9oOP6__GderBlkomFgPmbbfDQJoeYvN_IW0du8TYGs1swqjy_v90Dy2BRpHXo3v99zUAGRp9xZbYxf9S0QYAW6qUdc3RPANjBQSx3d_LgqTolPwQCO2wFihoGUEZqu2Xfj8UAwyp55_cEsY-dPj8hwVfFamszBOspfu9pjoHZ7sY3tbAfx1M6YoFWswAsIuOA2zBmbuUyeMueCLv-Xf959Pqm6jWO_iWv7x6SJOLSSEbUGqEkcJXAchKouuw__GQZdMs.jpg?r=fdf" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABc1jzWCpgksMmxPbgOgqvMrWuxByWdyzdUUqi5CI2MmqNmmRiU77aRsXxOss-PI11BQWth-IQMcbyD-5d4_WnEQ5XnEUTSZCyFpuIZN-xZsN4UJWv4MI9aklDDISchLkJEsWOMo4Vzlkutmg44RIxYAu8S3T0xoOADhHSs7O0Z-DYBF6xN2KPQXXpalFo4yM-gXQHZpLNcWNTEot14mgBZ2l7trPoRfLiGz2_KhWBVKGzg7LCzVZ8EVQyoqIRXlUbwRt9fG2RmOgeFQPLLXr2ejVPLcaxBekbQ_pAjXWdsq9448p14I4wHLBt6Qr0cGemrMlTwkP3gFQEc-rljt_swC9KA-KjnasGR5E7_Nppz-c9BQT3ezs6nl__jus3O5tuENJ--JuHeiDzigoUfwABeyOrXUONOYEKpYoC3jG9M-7yK6GBuJcKj4PeqBN-rYLfZlqfO_V.jpg?r=3e9" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQVHO7eprjCHioYgdX7E4pnzxm7ea7XJ6Ydbzv1XuJ2Z02UOqFsKuj0RNwC1Qh2FNsoUEkb-S5g3Oei6PyM2dT0dZ_k0t2BnqbjgltqhJlxG5SFHVmjSiwQSyvp5rZGpulLs.jpg?r=d40" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABe8_yuY2VeFD8haUvmsN5hDLBT2aXaU-327O3O-QrfJy_AadjyPDpU3CyHlPHl6DUk6g6bCGKaPP-fXc99Z1hVBKP8YeodP5PiBDGJjZ6bNvhJOqJubc14NTorREelvtrObP.jpg?r=257" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfCrEZerKXv6johgepcvqXsB0WvNH3ygGE-9Flgb09M9eBNq886HV6ylVOdiZjXrJd_85cVGXyx2Yr_rZanudBH3jzh9Zq8y5DJZeJNdlsV6l9d8YvHAzLAvnSHK0-UoBnp6.jpg?r=853" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfEszUbCWSmMmcEabhv8Nm6qYXtPUdBmeLMMP2gNl6Lg__reza5ZGE7VzDR1PO-N4D8ZQovqizjI8qqTUETi56mrY5Jh5Qs85kGFpAVb0yQob-wn64JUoVHCSIcgefMHvuY0XDtA92jWmTbTSeIaSpOAqjKRzVWKlL1geM3z6IJzvqOUmgyxrRvWdk8cn761MfwzlluOkMAPAYHjuBEPT1uuSfmLBSqCBXAmW7IR3dHkEimjl68a9VHvfZZ77OtgoK7WYA5eqLjaWe3XyBloZfRAKWSuJxwFuUDu_iKoEFU0HhxO75nmELndKmFhKY4GVa1YL11e9ugClBwSIsJIK9K0Y61j0M3Adj7tCUrz4_oNrEaga1Yjy4htqOgaNpAQkSUuxVhw-CMnAOiV6zSwyQfmHe3fQquFZKKcx2zqn_kFmWoJCvT0EKSZFsza7Q7aZzdTe-ij.jpg?r=44c" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdsCrtvo28GH9x_6JmNSfS2yo9YwrXZbYmm8Y3Mdlm7UZn7hFXGLwMC0mM2AZkFGiyWKtYFZ98DTOmU5zXzQ-Fn6uwiYCyuKepUl4vC2AjY-n3FRvw2Xbq-liYtSqIA8Rx9S.jpg?r=b69" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABTsMh85v5kdGqNA5WURnB9kLvdqt5JytR6_FPcPSTAq-GOTSRnGPArIvqCBRZxQUPKAEXIgL9huDbOe8qqxpB7voXviuTIyRQhcLe50Di0WT1wIelru0iARsjnmMjKU7KCiHKZUlUo0RRD3wBrOnRajmPfbAMxBg2gyPU1B6UMu5450_MKY8kmUvPey6xtP21c7L9oOP6__GderBlkomFgPmbbfDQJoeYvN_IW0du8TYGs1swqjy_v90Dy2BRpHXo3v99zUAGRp9xZbYxf9S0QYAW6qUdc3RPANjBQSx3d_LgqTolPwQCO2wFihoGUEZqu2Xfj8UAwyp55_cEsY-dPj8hwVfFamszBOspfu9pjoHZ7sY3tbAfx1M6YoFWswAsIuOA2zBmbuUyeMueCLv-Xf959Pqm6jWO_iWv7x6SJOLSSEbUGqEkcJXAchKouuw__GQZdMs.jpg?r=fdf" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABc1jzWCpgksMmxPbgOgqvMrWuxByWdyzdUUqi5CI2MmqNmmRiU77aRsXxOss-PI11BQWth-IQMcbyD-5d4_WnEQ5XnEUTSZCyFpuIZN-xZsN4UJWv4MI9aklDDISchLkJEsWOMo4Vzlkutmg44RIxYAu8S3T0xoOADhHSs7O0Z-DYBF6xN2KPQXXpalFo4yM-gXQHZpLNcWNTEot14mgBZ2l7trPoRfLiGz2_KhWBVKGzg7LCzVZ8EVQyoqIRXlUbwRt9fG2RmOgeFQPLLXr2ejVPLcaxBekbQ_pAjXWdsq9448p14I4wHLBt6Qr0cGemrMlTwkP3gFQEc-rljt_swC9KA-KjnasGR5E7_Nppz-c9BQT3ezs6nl__jus3O5tuENJ--JuHeiDzigoUfwABeyOrXUONOYEKpYoC3jG9M-7yK6GBuJcKj4PeqBN-rYLfZlqfO_V.jpg?r=3e9" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQVHO7eprjCHioYgdX7E4pnzxm7ea7XJ6Ydbzv1XuJ2Z02UOqFsKuj0RNwC1Qh2FNsoUEkb-S5g3Oei6PyM2dT0dZ_k0t2BnqbjgltqhJlxG5SFHVmjSiwQSyvp5rZGpulLs.jpg?r=d40" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABe8_yuY2VeFD8haUvmsN5hDLBT2aXaU-327O3O-QrfJy_AadjyPDpU3CyHlPHl6DUk6g6bCGKaPP-fXc99Z1hVBKP8YeodP5PiBDGJjZ6bNvhJOqJubc14NTorREelvtrObP.jpg?r=257" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfCrEZerKXv6johgepcvqXsB0WvNH3ygGE-9Flgb09M9eBNq886HV6ylVOdiZjXrJd_85cVGXyx2Yr_rZanudBH3jzh9Zq8y5DJZeJNdlsV6l9d8YvHAzLAvnSHK0-UoBnp6.jpg?r=853" alt="" class="row-image"/>
+   </div>
+    </div>
+
+  <!--Documentaries-->
+    <div class="row">
+    <h2>Hollywood Movies</h2>
+    <div class="row-images">
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABT_n5kRw31EJjHzYrt16Bz9eTuJCLYmloqr3gGw7iBn0DICSKibwxb-775qsxDoi3apP1maO96Sb_b-lFk4fxtYperb0qZX4QT8rxUhS3DfSVUQp_8PQbWOtlN8f9lobiC7bsGEp6gfF-lGiwGx1bl-9t2nM2_DONrNc73C2L1POPkGORzirkMnAvUlbEdxFbGLUt0oZ5S9CG1dkJIr3s9JHts8NkJeJyk_14Rfj9He1dgjuMWwHJURKp0WnQaV8pY9zgc3-mpb2IfmRz6rZOBDYPkleTvMrGl4XYRvHX04rHERIrNuoDAun.jpg?r=ed2" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXvQ6mF2upM6koaj9Lo5uNfKEdjrG91EE7vOzDfiOkZ1u2te--0DYs7aWx3aY9jG-rhUOr_1XI4ceZ210A444r2N6GgM_bJlI8gLhKs4uq2tj4Zx7KXKIctnrfH195Gr-LQU.jpg?r=650" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYApe5XQADt3DpAzgnVQItUsfimSEs_3iyL1PP7DNvRsi8IYJlC4QJVD1jF1lHuwxF07dleBmccds4SNhO2zL5BgFTE5td9cJzuvWIVEfuowze0uONeFXys7w8zC8qPAVvE_.jpg?r=2c4" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYrFcnpHg9oLVaksa2IhVUuHmC8fnj_JOmvWPvUTx_N971kbJnvI5VQKD16x3fHZvDx0M8swBd_Keg7uhvsh4xuqMCZFP76cay6SYfu-ZKqrespCuMpTUhrP7ouhmhPLKYP0.jpg?r=db4" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZL9hydg5sW84k2oGZrAjYdyNxVmIBzs9cI7xEi7He5t7MMSfFKj6XyqGp6XlaMPkLDjwFIsZLHsvDjR3oxahaRY8iSfAwk1CqLtl4Nxtk7Zyg0xWgfEL6RODWuu0cfg4Lsi.jpg?r=5d9" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU16z-g04Ywq4QwmibU1kGhUEUt3uPAyYbnabfFyluxuH4kWDipwMATsCFNEavXRZNn1h850prJOVa5LdhqBrNj_kaL-Rr-vpG4TdThm6rtCDUgxKhAkLL4dcOw6DdB9eg0L.jpg?r=4ca" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeY4LLBI2jrH4vohVL9iDyiW1t46G1hIPtxqL0vapR01XrVoA400X2j6AjgHwh5tOZ5YDCxT4KfIAgTTBIq2CgVXkWtbPkzpvXYbTAUgQ6gQtQUF4FZTaUulH4rz1z0X9iG6.jpg?r=f18" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU39xy8YDz-5UTQh83ny8NLYGp26II1urpPO-umkDi5p4TU5o1qAXXXCPF6LvXvnShqVf0dd7RNFrx2O2PCdGRmrvFHm08xo3ya62BD3bNpOz8a0lOKOHMGKZr_9FMWnuN8B.jpg?r=bb5" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABT_n5kRw31EJjHzYrt16Bz9eTuJCLYmloqr3gGw7iBn0DICSKibwxb-775qsxDoi3apP1maO96Sb_b-lFk4fxtYperb0qZX4QT8rxUhS3DfSVUQp_8PQbWOtlN8f9lobiC7bsGEp6gfF-lGiwGx1bl-9t2nM2_DONrNc73C2L1POPkGORzirkMnAvUlbEdxFbGLUt0oZ5S9CG1dkJIr3s9JHts8NkJeJyk_14Rfj9He1dgjuMWwHJURKp0WnQaV8pY9zgc3-mpb2IfmRz6rZOBDYPkleTvMrGl4XYRvHX04rHERIrNuoDAun.jpg?r=ed2" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXvQ6mF2upM6koaj9Lo5uNfKEdjrG91EE7vOzDfiOkZ1u2te--0DYs7aWx3aY9jG-rhUOr_1XI4ceZ210A444r2N6GgM_bJlI8gLhKs4uq2tj4Zx7KXKIctnrfH195Gr-LQU.jpg?r=650" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYApe5XQADt3DpAzgnVQItUsfimSEs_3iyL1PP7DNvRsi8IYJlC4QJVD1jF1lHuwxF07dleBmccds4SNhO2zL5BgFTE5td9cJzuvWIVEfuowze0uONeFXys7w8zC8qPAVvE_.jpg?r=2c4" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYrFcnpHg9oLVaksa2IhVUuHmC8fnj_JOmvWPvUTx_N971kbJnvI5VQKD16x3fHZvDx0M8swBd_Keg7uhvsh4xuqMCZFP76cay6SYfu-ZKqrespCuMpTUhrP7ouhmhPLKYP0.jpg?r=db4" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZL9hydg5sW84k2oGZrAjYdyNxVmIBzs9cI7xEi7He5t7MMSfFKj6XyqGp6XlaMPkLDjwFIsZLHsvDjR3oxahaRY8iSfAwk1CqLtl4Nxtk7Zyg0xWgfEL6RODWuu0cfg4Lsi.jpg?r=5d9" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU16z-g04Ywq4QwmibU1kGhUEUt3uPAyYbnabfFyluxuH4kWDipwMATsCFNEavXRZNn1h850prJOVa5LdhqBrNj_kaL-Rr-vpG4TdThm6rtCDUgxKhAkLL4dcOw6DdB9eg0L.jpg?r=4ca" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABeY4LLBI2jrH4vohVL9iDyiW1t46G1hIPtxqL0vapR01XrVoA400X2j6AjgHwh5tOZ5YDCxT4KfIAgTTBIq2CgVXkWtbPkzpvXYbTAUgQ6gQtQUF4FZTaUulH4rz1z0X9iG6.jpg?r=f18" alt="" class="row-image"/>
+    <img src="https://occ-0-2483-3647.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABU39xy8YDz-5UTQh83ny8NLYGp26II1urpPO-umkDi5p4TU5o1qAXXXCPF6LvXvnShqVf0dd7RNFrx2O2PCdGRmrvFHm08xo3ya62BD3bNpOz8a0lOKOHMGKZr_9FMWnuN8B.jpg?r=bb5" alt="" class="row-image"/>
+   </div>
+    </div>
+
+    <script>
+      const nav =  document.getElementById('nav');
+
+      window.addEventListener('scroll', () =>{
+         if (window.scrollY >=100){
+            nav.classList.add('nav-black')
+         } else{
+            nav.classList.remove('nav-black')
+         }
+      })
+    </script>
+</body>
+</html>
